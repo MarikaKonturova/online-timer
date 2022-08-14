@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color: $secondaryColor;
+    color: $secondaryColor;
+  }
+  
+  body {
+    font-family: $secondaryFont, serif;
+    animation: opening 1s ease-in-out;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $secondaryColor;
+  
+  }
+  a:active, a:visited{
+    color: $secondaryColor;
+  }
+  .button{
+    display: border-box;
+    outline: none;
+    background-color: $secondaryColor;
+    font-family: $secondaryFont;
+    font-size: 1.6rem;
+    color: $mainColor;
+    border: 1px solid $secondaryColor;
+    border-radius: 50px;
+    padding: 2rem 3rem;
+   
+  }
+  .button:disabled{
+    display: none;
+  }
+  
+  .timer_success{
+    color: $detailsColor;
+    font-size: 4.2rem;
+    font-family: $mainFont;
+    letter-spacing: 3.8rem;
+  }

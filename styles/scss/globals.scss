@@ -1,0 +1,17 @@
+$mainColor: #2b004d;
+$secondaryColor: #ffffff;
+$detailsColor: #ffae05;
+$mainFont: "Major Mono Display", monospace;
+$secondaryFont: "PT Mono", monospace;
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=PT+Mono&display=swap");
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import "html";
+@import "home";
+@import 'timer';
