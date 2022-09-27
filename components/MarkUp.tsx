@@ -21,9 +21,7 @@ const MarkUp = ({ minutes }: TMarkUp) => {
     ...svgStyle(
       { animation: "none" },
       { animation: "updown 0.8s ease-in-out infinite alternate" }
-      /*  !!(minutes <= 19),
-    { display: "none" },
-    { display: "initial" } */
+      
     ),
   });
 

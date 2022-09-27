@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, CSSProperties } from "react";
 import { TimerBar } from "../components/TimerBar";
 import { TimerClock } from "../components/TimerClock";
 import { TimerSuccess } from "../components/TimerSuccess";
@@ -71,8 +71,8 @@ const Timer = () => {
       ) : (
         <>
           <TimerSuccess />
-          {/* @ts-ignore */}
-          <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} />
+          
+          <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles as CSSProperties} />
         </>
       )}
     </main>

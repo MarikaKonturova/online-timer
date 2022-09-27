@@ -1,6 +1,6 @@
 import React from "react";
 import { useAppDispatch } from "../app/hooks";
-import { setMode, setSuccess, setTimer } from "../features/timer/timerSlice";
+import { setMode} from "../features/timer/timerSlice";
 
 export const TimerSuccess = () => {
   const dispatch = useAppDispatch();
@@ -11,8 +11,6 @@ export const TimerSuccess = () => {
       <button
         className="button"
         onClick={() => {
-          dispatch(setTimer(false));
-          dispatch(setSuccess(false));
           dispatch(setMode("choose"));
         }}
       >
