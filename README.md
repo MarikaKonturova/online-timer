@@ -1,4 +1,4 @@
-App made with next.js, typescript, scss. The design of app is made by myself in figma.
+App made with next.js, typescript, scss. The design of app is made by myself in Figma.
 
 Galaxy app is online timer with space aesthetic.
 ![image](https://user-images.githubusercontent.com/69147255/184542325-70587c2d-bb0f-4f98-86c3-3b0437698b1b.png)
