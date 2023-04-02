@@ -1,6 +1,5 @@
-import React from "react";
 import { useAppDispatch } from "../app/hooks";
-import { setMode} from "../features/timer/timerSlice";
+import { setMode } from "../features/timer/timerSlice";
 
 export const TimerSuccess = () => {
   const dispatch = useAppDispatch();

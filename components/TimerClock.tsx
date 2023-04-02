@@ -1,4 +1,3 @@
-import React from 'react'
 import { setMode } from '../features/timer/timerSlice';
 import { useAppDispatch } from './../app/hooks';
 

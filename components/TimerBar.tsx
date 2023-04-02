@@ -1,7 +1,5 @@
-import React from 'react'
 import { useAppDispatch } from '../app/hooks';
 import { setMode } from '../features/timer/timerSlice';
-
 
 export type TTimerBar = {
     setSecondsLeft: (value: number)=>void
