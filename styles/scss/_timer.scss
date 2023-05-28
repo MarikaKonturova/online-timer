@@ -1,7 +1,7 @@
 .timer {
   z-index: 0;
   height: 100vh;
-  background-image: url("../public/bg.svg");
+  background-image: url("../../public/bg.svg");
   position: relative;
   @include flex(start, center, column);
 }
